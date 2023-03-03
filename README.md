@@ -1,4 +1,6 @@
-# TFC Getting Started
+# Terraform Cloud Example Repo
+
+- Forked from: [hashicorp/tfc-getting-started](https://github.com/hashicorp/tfc-getting-started.git)
 
 In this repo, you'll find a quick and easy path to get started using [Terraform Cloud](https://app.terraform.io/) with the [Terraform CLI](https://github.com/hashicorp/terraform).
 
@@ -6,8 +8,8 @@ In this repo, you'll find a quick and easy path to get started using [Terraform 
 
 This repo contains two main things:
 
-1. An example Terraform configuration which provisions some mock infrastructure to a fictitious cloud provider called "Fake Web Services" using the [`fakewebservices`](https://registry.terraform.io/providers/hashicorp/fakewebservices/latest) provider.
-1. A [script](./scripts/setup.sh) which automatically handles all the setup required to start using Terraform with Terraform Cloud.
+- An example of a Terraform configuration that provisions some mock infrastructure.
+- A [script](./scripts/setup.sh) that automatically handles all the setup required to start using Terraform with Terraform Cloud.
 
 ## Requirements
 
@@ -26,13 +28,13 @@ Run `terraform login` and follow the prompts to get an API token for Terraform t
 ### 2. Clone this repo
 
 ```sh
-git clone https://github.com/hashicorp/tfc-getting-started.git
-cd tfc-getting-started
+git clone https://github.com/spkane/terraform-cloud-example.git
+cd terraform-cloud-example
 ```
 
 ### 3. Run the setup script and follow the prompts
 
-```
+```sh
 ./scripts/setup.sh
 ```
 

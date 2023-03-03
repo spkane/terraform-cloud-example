@@ -1,5 +1,6 @@
 #!/usr/bin/env bash
 # Copyright (c) HashiCorp, Inc.
+# Additional Copyright (c) Sean P. Kane
 # SPDX-License-Identifier: MPL-2.0
 
 set -euo pipefail

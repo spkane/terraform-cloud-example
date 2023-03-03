@@ -1,4 +1,5 @@
 # Copyright (c) HashiCorp, Inc.
+# Additional Copyright (c) Sean P. Kane
 # SPDX-License-Identifier: MPL-2.0
 
 # The following configuration uses a provider which provisions [fake] resources
