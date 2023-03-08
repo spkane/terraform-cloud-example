@@ -9,11 +9,11 @@ In this repo, you'll find a quick and easy path to get started using [Terraform 
 This repo contains two main things:
 
 - An example of a Terraform configuration that provisions some mock infrastructure.
-- A [script](./scripts/setup.sh) that automatically handles all the setup required to start using Terraform with Terraform Cloud.
+- A [script](./scripts/setup.sh) that demonstrates how you can automatically handle all the setup required to start using Terraform with Terraform Cloud.
 
 ## Requirements
 
-- Terraform 0.14 or higher
+- Terraform 1.3.0 or higher
 - The ability to run a bash script in your terminal
 - [`sed`](https://www.gnu.org/software/sed/)
 - [`curl`](https://curl.se/)
