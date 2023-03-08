@@ -15,6 +15,15 @@
 # If you're looking for the configuration for the remote backend, you can find that
 # in backend.tf.
 
+terraform {
+  required_providers {
+    todo = {
+      source  = "spkane/todo"
+      version = "2.0.3"
+    }
+  }
+}
+
 resource "todo_todo" "test1" {
   count = 5
   description = "${count.index}-1 todo"
